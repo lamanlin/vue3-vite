@@ -6,6 +6,9 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import * as path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    open: true
+  },
   resolve: {
     //设置别名
     alias: {
